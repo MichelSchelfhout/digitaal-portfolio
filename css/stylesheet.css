@@ -1,0 +1,254 @@
+
+
+/* ========= ACHTERGROND ====== */
+div.filter{
+
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(66, 134, 244, 0.2);
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -998;
+
+}
+
+
+.stars{
+
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -999;
+	
+}
+
+/* ========= FOTO'S ===========================*/
+
+#fotodavinci{
+
+	position: absolute;
+	top: 150px;
+	left: 270px;
+}
+
+
+#fotome{
+
+	border-radius: 15px;
+	border: solid white;
+	height: 300px;
+	position: absolute;
+	top: 325px;
+	left: 230px;
+}
+
+/* ========= MAIN ( Container ) =================== */
+
+
+.main{ 
+	
+	background-color: rgba(0, 0, 0, 0.9);
+	border: solid white;
+	border-radius: 15px;
+	width: 800px;
+	
+	display: inline-block;
+	margin-left: 483px;
+	margin-top: 100px;
+
+
+}
+
+.main p{
+	
+	color: white;
+	padding: 10px;
+
+}
+
+.main:hover{
+
+	background-color: rgba(255, 255, 255, 0.9);
+	border: solid black;
+	border-radius: 15px;
+	transition: 0.3s ease-in-out;
+}
+
+.main:hover p{
+
+	color: black;
+	transition: 0.3s ease-in-out;
+}
+
+/* ========= MAIN ( Side Border ) ========*/
+
+.balk-rechts{
+
+	width: 300px;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
+	border-left: solid white;
+	z-index: 999;
+	float: right;
+	display: inline;
+}
+
+.balk-rechts h2{
+	
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	margin-top: 50px;
+	
+	
+}
+
+.balk-rechts a{
+
+	line-height: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.balk-rechts li { 
+	
+	list-style-type: none;
+}
+
+.balk-rechts li:hover{ 
+	
+	background-color: rgba(0, 0, 0, 0.7);
+	transition: 0.3s ease-in-out;
+}
+
+.balk-rechts li:hover a{ 
+		
+	text-decoration: none;	
+	color: black;
+	transition: 0.3s ease-in-out;
+}
+
+.balk-rechts:hover{ 
+
+	background-color: rgba(255, 255, 255, 0.9);
+	border-left: solid black;
+	transition: 0.3s ease-in-out;
+
+}
+
+.balk-rechts:hover a{
+
+	color: black;
+	transition: 0.3s ease-in-out;	
+}
+
+/*===================================================== BOTTOM CIRCLES ==============================================================================*/
+
+.img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid white;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    position: absolute;
+    top: 700px;
+    left: 400px;
+
+}
+
+.img-circle:hover{
+
+	border: solid black;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.7);
+	transition: 0.3s ease-in-out;
+  
+
+}
+
+.img-circle:nth-of-type(1){
+
+	position: absolute;
+	top: 700px;
+	left: 400px;
+}
+
+
+.img-circle:nth-of-type(2){
+
+	position: absolute;
+	top: 700px;
+	left: 600px;
+}
+
+.img-circle:nth-of-type(3){
+
+	position: absolute;
+	top: 700px;
+	left: 800px;
+}
+
+.img-circle:nth-of-type(4){
+
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+}
+
+.img-circle:nth-of-type(5){
+
+	position: absolute;
+	top: 700px;
+	left: 1200px;
+}
+
+.img-circle:nth-of-type(6){
+
+	position: absolute;
+	top: 700px;
+	left: 1400px;
+}
+
+.img-circle:nth-of-type(7){
+
+	position: absolute;
+	top: 700px;
+	left: 200px;
+}
+
+/*======================================================= EINDE CIRCLES =============================================================================*/
+
+span{
+
+	font-size: 18px;
+	font-weight: bolder;
+	color: white;
+
+	position: relative;
+	left: 45px;
+	top: 55px;
+
+
+}
+
+.img-circle:hover span{
+
+	color: black;
+}
+
+#WBI{
+
+	position: relative;
+	left: 55px;
+	top: 55px;
+}
+
+/*==============================================EINDE SPAN========================================================================*/
+
+	
+	
